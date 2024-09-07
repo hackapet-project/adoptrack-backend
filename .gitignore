@@ -1,0 +1,58 @@
+# Python
+*.py[cod]
+__pycache__/
+*.so
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Static files
+static/
+media/
+
+# Virtual environment
+venv/
+env/
+.env
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.bak
+*.tmp
+*.temp
+
+# Ignore pipenv virtual environment
+Pipfile.lock
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# Ignore test database
+test_db.sqlite3
+
+# Ignore collected static files
+staticfiles/
+
+# Ignore .env files containing secrets
+.env
+.env.prod
+.env.local
+
+# Ignore Django migration files
+**/migrations/*.py
+!**/migrations/__init__.py
